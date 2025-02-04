@@ -38,7 +38,29 @@ if ("quiz") in answer:
 if ("story") in answer:
     print("Sure. The story begins.")
     print("You wake up and find yourself in a dark cave, and you hear rumbling noises. What do you do?")
-    print(" You can choose to walk around and explore, or pretend nothing is happening and go back to sleep?")
+    print("Option 1. You can choose to walk around and explore.")
+    print("Option 2. Pretend nothing is happening and go back to sleep.")
+    option = input()
+    if ("1" or "first") in option:
+        print("Okay. You try to walk around, but it is too dark and you cannot see anything.")
+        print("Being the brainless foolish person you are, you keep walking, and-")
+        print("THUD!")
+        print("You bump into a wall. Ouch!")
+        print("Following the wall with your hand, you eventually see a small spartke of light ahead.")
+        print("Determined now more than ever, you keep walking.")
+        print("Or do you?")
+        print(" 1. Keep walking to towards the light.")
+        print(" 2. Give up, duh! I'm not made for this.")
+        duh = input()
+        if ("1" or "walk") in duh:
+            print("Okay. So as I was saying, more determined than ever, you keep walking.")
+        if ("2" or "give") in duh:
+            print("Guess you're just too lazy. Goodbye.")
+            sys.exit()
+    if ("2" or "second") in option:
+        print("Okay. You go back to sleep and well, I don't know. You were never seen again.")
+        print("Goodbye!")
+        sys.exit()
 else:
     print("Well, that's too bad.")
     sys.exit()
