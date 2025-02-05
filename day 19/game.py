@@ -34,6 +34,7 @@ if ("quiz") in answer:
         print("Oh, come on. That was so easy!")
     print("Good job! You got", correct, "correct!")
     print("It was nice talking with you. Goodbye.")
+    sys.exit()
 if ("story") in answer:
     while True:
         print(" ")
