@@ -71,7 +71,7 @@ if ("story") in answer:
     print("Out spreads a wide forest below. You walk to the edge of the cliff and look down, terrified.")
     print("     ")
     print("You look back, at the long, endless tunnel of darkness.")
-    print("You see s dark shadow slowly approaching you.")
+    print("You see a dark shadow slowly approaching you.")
     print(" ")
     while True:
         print(" ")
